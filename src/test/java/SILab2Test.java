@@ -20,7 +20,7 @@ public class SILab2Test {
 	    @Test
 	    void MultipleConditions() {
 	    	//if (n == 0 || n == 1) {//6
-	        assertEquals(true, SILab2.checkPrime(0)); //(True) AND (X)
-	        assertEquals(true, SILab2.checkPrime(1)); //(False) AND (True)
+	        assertEquals(true, SILab2.checkPrime(0)); //(True) OR (X)
+	        assertEquals(true, SILab2.checkPrime(1)); //(False) OR (True)
 	    }
 	}
